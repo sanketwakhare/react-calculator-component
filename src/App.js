@@ -1,10 +1,10 @@
 import Calculator from "./components/Calculator";
-import "./index.css";
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <Calculator width={100} />
+      <Calculator />
     </div>
   );
 }

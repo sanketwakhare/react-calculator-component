@@ -3,7 +3,10 @@
 import "./Display.css";
 
 const Display = (props) => {
-    const { style } = props;
-    return <div className={style}>9999</div>;
+    const { style, result, operationsString } = props;
+    return <>
+        <div>{operationsString}</div>
+        <div className={style}>{result}</div>
+    </>;
 };
 export default Display;
