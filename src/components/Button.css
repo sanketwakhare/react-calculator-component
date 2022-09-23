@@ -1,0 +1,22 @@
+.button {
+  /* 1unit */
+  height: 2rem;
+  margin: 0.2rem;
+}
+button {
+  all: unset;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.btn-width__25 {
+  width: 25%;
+}
+
+.btn-width__50 {
+  width: 50%;
+}
+
+.wide {
+  width: 4rem;
+}
